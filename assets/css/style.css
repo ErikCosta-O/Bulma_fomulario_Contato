@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 500px;
+    background-color: #fdb833;
+    border-radius: 10px 10px 10px 10px;
+}
+.container{
+    justify-content: center;
+    width: 500px;
+    margin-top: 60px;
+}
+
+.input{
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid black;
+}
+
+.input:hover{
+    border: 2px solid black;
+    
+}
+
+.textarea{
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid black;
+}
+
+.input:hover{
+    border-radius: 10px 10px 10px 10px;
+    background-color: #8ecae6;
+    border: 2px solid black;
+    transition-duration: 1.2s;
+}
+
+
+.textarea:hover{
+    border-radius: 10px 10px 10px 10px;
+    background-color: #8ecae6;
+    border: 2px solid black;
+    transition-duration: 1.2s;
+}
